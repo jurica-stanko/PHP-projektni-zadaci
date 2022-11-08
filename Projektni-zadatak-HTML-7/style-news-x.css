@@ -1,0 +1,114 @@
+header{
+    display: block;
+    width: 100%;
+}
+.div-slika{
+    padding:0;
+    margin:0;
+}
+.slika{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    object-fit: cover;
+    width: 100%;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.navigacija{
+    position: relative;
+    height: 50px;
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    background-color: black;
+    overflow: hidden;
+}
+li{
+    display: inline;
+    float: left;
+}
+.navbar{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+li a{
+    display: block;
+    width: 60px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+li a:hover{
+    color: grey;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    padding-left: 10px;;
+}
+
+figure{
+    margin: 10px;
+    width: 17%;
+    padding: 5px;
+    float: left;
+    border: 1px solid black;
+}
+figure img{
+    width: 100%;
+}
+.wrapper{
+    padding: 5px;   
+    display: inline-block;
+}
+.news-slika figcaption{
+    position: relative;
+    width: 100%;
+}
+.clanak{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.tekst-clanka{
+    column-count: 3;
+
+}
+.clanak h2{
+    color: darkred;
+}
+.clanak h3{
+    color: green;
+}
+.clanak p{
+    line-height: 30px;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    bottom:0;
+    left:0;
+    width: 100%;
+    clear: both;
+}
+footer p{
+    color: white;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ikona{
+    width:2%;
+    padding: 6px;
+}
+
+

@@ -64,7 +64,7 @@ main h1{
     padding: 0;
     margin:0;
     text-decoration: none;
-    display:inline;
+    display: inline;
 }
 .clanci h2{
     text-decoration: none;
@@ -99,5 +99,3 @@ footer p{
     width:2%;
     padding: 6px;
 }
-
-

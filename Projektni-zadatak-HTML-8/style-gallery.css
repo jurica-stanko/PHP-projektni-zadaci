@@ -1,0 +1,84 @@
+header{
+    display: block;
+    width: 100%;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.navigacija{
+    position: relative;
+    height: 50px;
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    background-color: black;
+    overflow: hidden;
+}
+li{
+    display: inline;
+    float: left;
+
+}
+.navbar{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+li a{
+    display: block;
+    width: 60px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+li a:hover{
+    color: grey;
+}
+.ikona{
+    width:2%;
+    padding: 6px;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+
+.slike{
+    display: inline-block;
+    align-items: center;
+}
+.slike figure{
+    display: inline-block;
+    width: 25%;
+    margin: 10px;
+    border: 1px solid black;
+    align-items: center;
+
+}
+.slike img{
+    position: relative;
+    width: 94%;
+    padding: 3%;
+
+}
+.slike figcaption{
+    position: relative;
+    font-size: 90%;
+    padding-left: 3%;
+    padding-bottom: 5px;;
+}
